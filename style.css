@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#corpo {
+    background-color: #121212;
+    height: 340vh;
+}
+#principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#arvores {
+    width: 100%;
+}
+#container-arvores {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 845px;
+    position: absolute;
+}
+#conteudo {
+    position: absolute;
+    width: 100%;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+#titulo {
+    color: #FFF;
+    font-family: helvetica;
+}
+#container {
+    width: 90%;
+    background-color: #202020;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.meio-capa {
+    display: flex;
+    justify-content: center;
+}
+#capa {
+    width: 25%;
+    margin: 10px 0 60px 0;
+}
+#imagem {
+    width: 75%;
+    margin: 20px 0 20px 0;
+}
+#imagem-dom-quixote {
+    width: 20rem;
+    margin: 20px 0 20px 0;
+}
+#estrelas-avaliacao {
+    width: 30%;
+}
+.info {
+    color: #004a4d;
+}
+.paragrafo {
+    color: #FFF;
+    font-family: helvetica;
+}
+.titulos {
+    color: #e92121;
+    font-family: arial;
+}
